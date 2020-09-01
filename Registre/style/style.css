@@ -1,0 +1,17 @@
+
+#map{  
+    height: 400px;  
+    width:600px;  
+    margin-top: 40px;
+}  
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.titolinfo{
+    font-size: 18px;
+    font-weight: bold;
+}
