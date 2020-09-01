@@ -11,8 +11,14 @@
 	<script src="js/functions.js"></script>
 </head>
 <?php
-	try {
+	/*try {
 		$db = new PDO("mysql:host=localhost;dbname=m6", "root", "");
+		$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	} catch (PDOException $e) {
+		die ($e->getMessage());
+	} */
+	try {
+		$db = new PDO("mysql:host=localhost;dbname=152680", "152680", "Independencia47!");
 		$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	} catch (PDOException $e) {
 		die ($e->getMessage());
